@@ -1,0 +1,24 @@
+{
+  "name": "extension-template-appshell",
+  "version": "1.0.0",
+  "description": "lavas install appshell",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lavas-project/extension-template-appshell.git"
+  },
+  "keywords": [
+    "lavas",
+    "extension",
+    "appshell"
+  ],
+  "author": "wangyisheng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lavas-project/extension-template-appshell/issues"
+  },
+  "homepage": "https://github.com/lavas-project/extension-template-appshell#readme"
+}
