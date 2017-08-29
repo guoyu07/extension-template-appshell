@@ -1,6 +1,6 @@
 {
-  "name": "extension-template-appshell",
-  "version": "1.0.0",
+  "name": "lavas-extension-appshell",
+  "version": "0.0.1",
   "description": "lavas install appshell",
   "main": "index.js",
   "scripts": {

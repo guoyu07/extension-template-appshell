@@ -1,3 +1,4 @@
+<!-- ======== lavas extensions start ======== -->
 <template>
     <div id="app">
         <div class="app-shell app-shell-bottom-navigation">
@@ -190,3 +191,4 @@ body
             &.slide-left-leave-active
                 transform translate(-100%, 0)
 </style>
+<!-- ======== lavas extensions start ======== -->
