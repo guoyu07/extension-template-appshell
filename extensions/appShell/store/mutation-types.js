@@ -1,6 +1,6 @@
 /**
  * @file app shell mutation types
- * @author *__ author __*{% if: *__ email __* %}(*__ email __*){% /if %}
+ * @author *__ author __*(*__ email __*)
  */
 
 export const ENABLE_PAGE_TRANSITION = 'ENABLE_PAGE_TRANSITION';
