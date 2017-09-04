@@ -1,6 +1,6 @@
 /**
  * @file entry
- * @author *__ author __*(*__ email __*)
+ * @author wangyisheng(wangyisheng@baidu.com)
  */
 
 import Vue from 'vue';

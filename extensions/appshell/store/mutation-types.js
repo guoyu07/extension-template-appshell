@@ -1,6 +1,6 @@
 /**
  * @file app shell mutation types
- * @author *__ author __*(*__ email __*)
+ * @author wangyisheng(wangyisheng@baidu.com)
  */
 
 export const ENABLE_PAGE_TRANSITION = 'ENABLE_PAGE_TRANSITION';

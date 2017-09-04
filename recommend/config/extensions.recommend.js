@@ -1,6 +1,6 @@
 /**
  * @file extensions config
- * @author *__ author __*(*__ email __*)
+ * @author wangyisheng(wangyisheng@baidu.com)
  */
 
 'use strict';
