@@ -6,6 +6,7 @@
 'use strict';
 
 /* ======== lavas extensions start ======== */
+// appshell需要使用的一些引用
 var path = require('path');
 var nodeExternals = require('webpack-node-externals');
 var globalConfig = require('./globals');
@@ -13,11 +14,14 @@ var globalConfig = require('./globals');
 
 module.exports = [
     /* ======== lavas extensions start ======== */
-    // 添加appshell
+    // 添加appshell扩展
     {
         name: 'appshell',
         init: {
             base: function (webpackConfig) {
+                // 设置alias
+                webpackConfig.resolve.alias['extensions'] = globalConfig.extensionsDir;
+
                 // 找到stylus-loader并且添加options.import
                 let setImport = (styleLoaders, path) => {
                     let find = styleLoaders.find(
@@ -29,7 +33,7 @@ module.exports = [
                 };
 
                 let vueLoaders = webpackConfig.module.rules[0].use[0].options.loaders;
-                let variablesFilePath = '~@/extensions/appShell/styles/variables.styl';
+                let variablesFilePath = '~extensions/appShell/styles/variables.styl';
 
                 setImport(vueLoaders.stylus, variablesFilePath);
                 setImport(vueLoaders.styl, variablesFilePath);
