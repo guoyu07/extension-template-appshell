@@ -1,6 +1,6 @@
 {
   "name": "lavas-extension-appshell",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "lavas install appshell",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/lavas-project/extension-template-appshell/issues"
   },
-  "homepage": "https://github.com/lavas-project/extension-template-appshell#readme"
+  "homepage": "https://github.com/lavas-project/extension-template-appshell#readme",
+  "dependencies": {
+    "vuetify": "^0.12.7",
+    "iscroll": "5.1.0"
+  },
 }
