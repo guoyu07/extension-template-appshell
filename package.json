@@ -24,5 +24,5 @@
   "dependencies": {
     "vuetify": "^0.12.7",
     "iscroll": "5.1.0"
-  },
+  }
 }
